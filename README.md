@@ -7,7 +7,9 @@ Assignment One Instructions (Bootstrap)
     
     -A responsive layout (remember the grid, rows and columns are your friends)
         
-        -eg. On xs and sm screens, each section should take up the entire grid. On m and larger screens, each section should take up 2/3            of the grid and the sidebar should take up 1/3 of the grid
+        -eg. On xs and sm screens, each section should take up the entire grid. 
+        -On m and larger screens, each section should take up 2/3 of the grid 
+        -The sidebar should take up 1/3 of the grid
     
     -Responsive images
 
