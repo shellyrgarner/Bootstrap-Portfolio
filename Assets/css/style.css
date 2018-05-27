@@ -40,20 +40,12 @@ body {
     padding: 50px;
   }
 
-  .work {
+   .work {
     margin: 20px 0 25px;
-  }
 
-  /* .work:nth-child(even) {
-    margin-right: 40px;
-  } */
-  
-  /* .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-  } */
-  
+  } 
+
+   
   .work h3 {
     /* position: absolute; */
     bottom: 20px;
