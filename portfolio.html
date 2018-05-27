@@ -3,22 +3,24 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Portfolio</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="main.css" /> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg" id="masthead">
         <div class="container-fluid">
             <div class="navbar-header">
                 <!-- <a class="navbar-brand" href="index.html">Shelly Garner</a> -->
                 <div class="card-header bg-info">
-                    <a class="navbar-header text-white" href="index.html">Shelly Garner</a>
+                    <a href="index.html" class="text-white">Shelly Garner</a>
                 </div>
 
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -47,21 +49,21 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-sm-12 text-info">
-                <h1>Portfolio</h1>
+            <div class="col-sm-12 text-info border-bottom">
+                <h2>Portfolio</h2>
             </div>
 
             <div class="row">
                 <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> -->
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-secondary">
-                    <div class="work">
-                        <img class="img-responsive" src="assets/images/technics-h-c-404-410-9.jpg" alt="Word Guess">
+                    <div class="work position-relative">
+                        <img class="img-responsive rounded" src="assets/images/technics-h-c-404-410-9.jpg" alt="Word Guess">
                         <h3>Hangman</h3>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-secondary">
-                    <div class="work">
-                        <img class="img-responsive" src="assets/images/technics-h-c-404-410-5.jpg" alt="RPG Game">
+                    <div class="work position-relative">
+                        <img class="img-responsive rounded" src="assets/images/technics-h-c-404-410-5.jpg" alt="RPG Game">
                         <h3>RPG Game</h3>
                     </div>
                 </div>
@@ -69,14 +71,14 @@
 
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-secondary">
-                    <div class="work">
-                        <img class="img-responsive" src="assets/images/technics-h-c-404-410-8.jpg" alt="Trivia Game">
+                    <div class="work position-relative">
+                        <img class="img-responsive rounded" src="assets/images/technics-h-c-404-410-8.jpg" alt="Trivia Game">
                         <h3>Trivia Game</h3>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-secondary">
-                    <div class="work">
-                        <img class="img-responsive" src="assets/images/technics-h-c-404-410-6.jpg" alt="Rutgers Info Widget">
+                    <div class="work position-relative">
+                        <img class="img-responsive rounded" src="assets/images/technics-h-c-404-410-6.jpg" alt="Rutgers Info Widget">
                         <h3>Rutgers Info Widget</h3>
                     </div>
                 </div>
@@ -84,22 +86,22 @@
 
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-secondary">
-                    <div class="work">
-                        <img class="img-responsive" src="assets/images/technics-h-c-404-410-10.jpg" alt="Rock Paper Scissors">
+                    <div class="work position-absolute">
+                        <img class="img-responsive rounded" src="assets/images/technics-h-c-404-410-10.jpg" alt="Rock Paper Scissors">
                         <h3>Rock Paper Scissors</h3>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-secondary">
-                    <div class="work">
-
-                    </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="work invisible">
+                            <img class="img-responsive rounded" src="assets/images/technics-h-c-404-410-10.jpg" alt="Rock Paper Scissors">
+                    </div> 
                 </div>
             </div>
         </div>
     </div>
 
     <footer>
-        <div class="footer fixed-bottom text-light bg-dark">
+        <div class="footer fixed-bottom text-light bg-dark text-center">
             Copyright &copy;
         </div>
     </footer>
